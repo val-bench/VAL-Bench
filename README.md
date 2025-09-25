@@ -1,5 +1,10 @@
-## VAL-Bench
+# VAL-Bench
+A diverse benchmark for systematic analysis of a how reliably language models embody human values.
 
+## Abstract
+Large language models (LLMs) are increasingly used for tasks where outputs shape human decisions, so it is critical to test whether their responses reflect consistent human values. Existing benchmarks mostly track refusals or predefined safety violations, but these only check rule compliance and do not reveal whether a model upholds a coherent value system when facing controversial real-world issues. We introduce the Value ALignment Benchmark (VAL-Bench), which evaluates whether models maintain a stable value stance across paired prompts that frame opposing sides of public debates. VAL-Bench consists of 115K such pairs from Wikipedia’s controversial sections. A well-aligned model should express similar underlying views regardless of framing, which we measure using an LLM-as-judge to score agreement or divergence between paired responses. Applied across leading open- and closed-source models, the benchmark reveals large variation in alignment and highlights trade-offs between safety strategies (e.g., refusals) and more expressive value systems. By providing a scalable, reproducible benchmark, VAL-Bench enables systematic comparison of how reliably LLMs embody human values.
+
+![Alt text](VAL-Bench.png)
 <!--
 **val-bench/VAL-Bench** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
