@@ -27,12 +27,6 @@ As described in the paper, these datasets have responses that can be used to cal
 [one-refusal-50](https://huggingface.co/datasets/val-bench/calibration-one-refusal-50)
 
 
-### LLM Response Datasets
-
-We also provide the LLM responses for a number of open- and closed-weights LLMs on the test split.
-
-_Coming soon_
-
 ## Running the Evaluator
 
 _Coming soon_
